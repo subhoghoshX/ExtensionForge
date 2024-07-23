@@ -2,9 +2,12 @@
   "type": "module",
   "scripts": {
     "build": "./build.js",
-    "watch": "./build.js -w"
+    "watch": "./build.js -w",
+    "format:check": "biome format .",
+    "format:fix": "biome format --write ."
   },
   "devDependencies": {
+    "@biomejs/biome": "1.8.3",
     "@types/chrome": "^0.0.268",
     "@types/node": "^20.14.2",
     "@types/react": "^18.3.3",
