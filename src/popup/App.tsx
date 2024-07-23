@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import Hello from "@/components/Hello";
 
 export default function App() {
