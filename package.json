@@ -3,7 +3,10 @@
   "scripts": {
     "build": "./build.js",
     "watch": "./build.js -w",
-    "format:check": "biome format .",
+    "format": "biome format .",
+    "lint": "biome lint .",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\"",
     "format:fix": "biome format --write ."
   },
   "devDependencies": {
