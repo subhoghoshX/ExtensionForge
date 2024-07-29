@@ -6,11 +6,12 @@
     "format": "biome format .",
     "lint": "biome lint .",
     "typecheck": "tsc --noEmit",
-    "test": "echo \"Error: no test specified\"",
+    "test": "PW_TEST_HTML_REPORT_OPEN='never' npx playwright test",
     "format:fix": "biome format --write ."
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
+    "@playwright/test": "^1.45.3",
     "@types/chrome": "^0.0.268",
     "@types/node": "^20.14.2",
     "@types/react": "^18.3.3",
