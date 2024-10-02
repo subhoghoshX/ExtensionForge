@@ -10,7 +10,7 @@
     "format:fix": "biome format --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.2",
+    "@biomejs/biome": "1.9.3",
     "@playwright/test": "^1.47.2",
     "@types/chrome": "^0.0.272",
     "@types/node": "^22.7.4",
